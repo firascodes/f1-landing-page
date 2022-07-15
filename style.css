@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+
+*{
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header & Nav bar */
+
+.header{
+    font-size: 16px;
+    background-color: #1f2937;
+    padding: 20px 150px 100px 150px;
+    color:#f9faf8;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color:#f9faf8 ;
+}
+
+.navbar a:hover{
+   text-decoration: underline;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Hero text and content = Formula 1 and car */
+
+
+.headcontent{
+    display: flex;
+    justify-content: space-between;
+
+}
+.heading{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.headtext{
+
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+.f1car{
+    width: 500px;
+    margin: 0 50px;
+}
+
+.header button{
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 30px;
+    border: 2px #3882F6 solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header button:hover{
+    border: 2px white solid;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.buttons .tickets{
+    color: #3882F6;
+    background-color: white;
+    padding: 8px 30px;
+    border: 2px white solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.buttons .tickets:hover{
+    border: 2px #3882F6 solid;
+}
+
+
+/* Middle section = Team members */
+
+
+.mid-1{
+    display: flex;
+    padding: 0px 100px;
+    margin: 80px 0;
+    margin-bottom: 120px;
+    flex-direction: column;
+
+}
+
+.mid-1 .title{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imagesection {
+    display: flex;
+    gap: 100px;
+    /* margin: 0 100px; */
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+ 
+.info .text{
+    margin-top: 10px;
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.imageholder{
+    height: 150px;
+    width: 150px;
+    /* border: 0px solid blue;
+    border-radius: 8px; */
+}
+
+.imageholder img{
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.imageholder img:hover{
+    opacity: 80%;
+}
+
+
+.mid-2{
+    background-color: #E5E7EB;
+    padding: 60px 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-2 .quote {
+    font-size: 24px;
+    font-weight: light;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.mid-2 .author{
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+}
+
+
+.mid-3
+{
+    padding: 100px;
+}
+.mid-3 .box{
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 0 250px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}    
+
+.mid-3 button{
+    border: 2px solid white;
+    background: none;
+    padding: 0px 20px;
+    flex: 0 1 auto;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.mid-3 button:hover{
+    background: white;
+    color: #3882F6 ;
+    cursor: pointer;
+}
+
+
+
+.mid-3 .boxtext{
+    color: white;
+}
+
+.mid-3 .boxtext .text1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer{
+    background: lightblue;
+    padding: 30px;
+    text-align: center;
+}
