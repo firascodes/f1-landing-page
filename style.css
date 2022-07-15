@@ -68,6 +68,13 @@ a{
 .f1car{
     width: 500px;
     margin: 0 50px;
+    
+}
+.f1car:hover{
+    width: 500px;
+    margin: 0 50px;
+    box-shadow: 0 5px 40px white;
+    transition-duration: 0.5s;
 }
 
 .header button{
@@ -77,10 +84,12 @@ a{
     border: 2px #3882F6 solid;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .header button:hover{
     border: 2px white solid;
+
 }
 
 .buttons{
@@ -139,7 +148,7 @@ a{
 }
  
 .info .text{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 150px;
     text-align: center;
     font-weight: 700;
@@ -157,11 +166,18 @@ a{
     border-radius: 10px;
     width: 150px;
     height: 150px;
+    box-shadow: 0 10px 20px black;
+    transition: 1s;
+
 }
 
 .imageholder img:hover{
-    opacity: 80%;
+    box-shadow: 0 10px 20px blue;
+    transition-duration: 0.5s;
+
 }
+
+/* Quote section */
 
 
 .mid-2{
